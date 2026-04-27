@@ -1,0 +1,12 @@
+[package]
+name = "core_inspect"
+description = "In-process trace collection and runtime inspection primitives"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+serde = { workspace = true }
+serde_json = "1.0.145"
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true, features = ["registry"] }

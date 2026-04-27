@@ -1,0 +1,23 @@
+[package]
+name = "app_client"
+description = "Client executable — wires rendering, input, simulation, and debug UI"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+core_math = { workspace = true }
+core_proto = { workspace = true }
+core_platform = { workspace = true }
+core_runtime = { workspace = true }
+core_render = { workspace = true }
+core_audio = { workspace = true }
+core_devui = { workspace = true }
+game_core = { workspace = true }
+game_moba = { workspace = true }
+glam = { workspace = true }
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true }
+kanal = { workspace = true }
+winit = { workspace = true }
+wgpu = { workspace = true }

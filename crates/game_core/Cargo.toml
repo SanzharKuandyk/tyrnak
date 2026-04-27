@@ -1,0 +1,14 @@
+[package]
+name = "game_core"
+description = "Simulation engine — custom ECS world, tick pipeline, commands, events, snapshots"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+core_math = { workspace = true }
+core_proto = { workspace = true }
+core_inspect = { workspace = true }
+glam = { workspace = true }
+tracing = { workspace = true }
+serde = { workspace = true }

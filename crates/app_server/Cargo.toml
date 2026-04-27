@@ -1,0 +1,18 @@
+[package]
+name = "app_server"
+description = "Headless server executable — simulation + networking, no renderer"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+core_proto = { workspace = true }
+core_runtime = { workspace = true }
+core_inspect = { workspace = true }
+tool_inspector = { workspace = true }
+core_net = { workspace = true }
+game_core = { workspace = true }
+game_moba = { workspace = true }
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true }
+kanal = { workspace = true }

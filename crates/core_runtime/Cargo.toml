@@ -1,0 +1,10 @@
+[package]
+name = "core_runtime"
+description = "Threading, lifecycle, tick loops, and cross-thread communication"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+kanal = { workspace = true }
+tracing = { workspace = true }

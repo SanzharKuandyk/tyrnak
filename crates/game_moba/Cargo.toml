@@ -1,0 +1,13 @@
+[package]
+name = "game_moba"
+description = "Mock MOBA game — validates engine APIs, test heroes, mock matches"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+game_core = { workspace = true }
+core_math = { workspace = true }
+core_proto = { workspace = true }
+glam = { workspace = true }
+tracing = { workspace = true }

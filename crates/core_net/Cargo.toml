@@ -1,0 +1,19 @@
+[package]
+name = "core_net"
+description = "Networking transport — renet wrapper, client/server, message passing"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+core_proto = { workspace = true }
+core_runtime = { workspace = true }
+renet = { workspace = true }
+renetcode = { workspace = true }
+postcard = { workspace = true }
+serde = { workspace = true }
+kanal = { workspace = true }
+tracing = { workspace = true }
+
+[dev-dependencies]
+glam = { workspace = true }

@@ -1,0 +1,18 @@
+[package]
+name = "core_audio"
+description = "Audio engine abstraction — playback, spatial audio, stub for headless"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+tracing = { workspace = true }
+glam = { workspace = true }
+
+[dependencies.kira]
+workspace = true
+optional = true
+
+[features]
+default = []
+kira-backend = ["dep:kira"]

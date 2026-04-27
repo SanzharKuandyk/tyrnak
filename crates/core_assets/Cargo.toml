@@ -1,0 +1,12 @@
+[package]
+name = "core_assets"
+description = "Asset management — handles, loading, caching, hot-reload"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+kanal = { workspace = true }
+papaya = { workspace = true }
+notify = { workspace = true }
+tracing = { workspace = true }

@@ -1,0 +1,12 @@
+[package]
+name = "core_physics"
+description = "Physics query layer — rapier3d wrapper, raycasts, collision queries"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+core_math = { workspace = true }
+rapier3d = { workspace = true }
+glam = { workspace = true }
+tracing = { workspace = true }
